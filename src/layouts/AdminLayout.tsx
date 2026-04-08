@@ -10,10 +10,10 @@ const AdminLayout = () => {
       ?.setAttribute("content", "Admin panel for managing the application")
   }, [])
   return (
-    <div>
+    <main className="min-h-screen bg-linear-to-b from-emerald-50 to-white font-sans">
       <AdminNavbar />
       <Outlet />
-    </div>
+    </main>
   )
 }
 

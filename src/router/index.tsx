@@ -19,6 +19,7 @@ const router = createBrowserRouter(
 
       <Route path="/admin" element={<AdminLayout />}>
         <Route index element={<AdminHomePage />} />
+        <Route path="home" element={<AdminHomePage />} />
       </Route>
     </>
   )
