@@ -193,7 +193,7 @@ export const dashboardStyles = {
   statsGrid:
     "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 mb-6",
   statCard:
-    "p-4 rounded-full bg-linear-to-br from-emerald-100 to-emerald-50 shadow-sm border border-green-100",
+    "p-4 rounded-md bg-linear-to-br from-emerald-100 to-emerald-50 shadow-sm border border-green-100",
   statCardContent: "flex items-center gap-3",
   statIconContainer: "p-2 bg-white/80 rounded-full shadow-inner",
   statLabel: "text-sm text-slate-600",
@@ -201,7 +201,7 @@ export const dashboardStyles = {
 
   // Search section styles
   searchLabel: "block text-lg text-slate-600 mb-2",
-  searchContainer: "flex items-center gap-3 max-w-md",
+  searchContainer: "",
   searchInputContainer: "relative flex-1",
   searchInput:
     "pl-10 pr-4 py-2 rounded-full shadow-sm border border-green-200 bg-white placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-green-200 w-full",
